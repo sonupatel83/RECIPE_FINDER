@@ -1,0 +1,133 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFA500;
+}
+
+.login-button {
+  background-color: #00C9B1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-content h1 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.subtext {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.cuisine-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.cuisine-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.image-placeholder {
+  width: 80px;
+  height: 80px;
+  background-color: lightgray;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.cuisine-item span {
+  font-size: 14px;
+}
+
+.next-button {
+  background-color: #00C9B1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.skip-link {
+  margin-top: 10px;
+  font-size: 12px;
+  color: gray;
+  cursor: pointer;
+}
+.cuisine-item.selected {
+  border: 2px solid #00C9B1;
+  background-color: #E0F7FA;
+}
+.button-group {
+  display: flex;
+  gap: 8px; /* or any value you want */
+}
